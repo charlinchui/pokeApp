@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Pokemon.scss";
 import img from "../img/54-Psyduck.png";
-import water from "../img/water.png"
+import water from "../img/water.png";
 
 const Pokemon = () => {
   return (
@@ -25,7 +25,7 @@ const Pokemon = () => {
             <div className="stat"><span>SPEED: </span> <span className='stat-value'>55</span></div>
         </div>
     </div>
-  )
+  );
 }
 
-export default Pokemon
+export default Pokemon;
